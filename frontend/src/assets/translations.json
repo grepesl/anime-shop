@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "key": "HeroText",
+    "texts": [
+      {
+        "languageKey": "LT",
+        "text": "blabla bla"
+      }
+    ]
+  }
+]
