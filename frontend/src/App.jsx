@@ -10,13 +10,13 @@ import Login from "./pages/Login.jsx";
 import PlaceOrder from "./pages/PlaceOrder.jsx";
 import Orders from "./pages/Orders.jsx";
 import Navbar from "./components/Navbar.jsx";
+import PageWrapper from "./components/PageWrapper.jsx";
 
 
 const App = () => {
     return (
-        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
-            {/*min-h-screen bg-black text-white px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]*/}
-            <Navbar />
+        <div className="min-h-screen">
+            <PageWrapper><Navbar /></PageWrapper>
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/shop" element={<Shop/>} />
